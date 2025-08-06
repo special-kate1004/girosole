@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girosole - Italy Walking Tours</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./blog/style.css" />
+    <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/logo/logo.png" />
+      </div>
+      <div class="mobile-menu-btn">
+      <i class="fas fa-bars menu-open" style="display: block;"></i>
+      <i class="fas fa-times menu-close" style="display: none;"></i>
+      </div>
+      <div class="nav-links">
+        <ul>
+        <li class="dropdown desktop-nav">
+          <a href="#" class="dropdown-toggle">FIND A TRIP <div class="arrow"></div></a>
+          <div class="dropdown-menu">
+            <!-- Desktop Version -->
+            <div class="dropdown-content desktop-content">
+              <div class="dropdown-column">
+                <h3>Guided Walks</h3>
+                <ul>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/gran-paradiso-guided-trek/">Valle d'Aosta's Gran Paradiso</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/">Piedmont's Langhe District</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/piemonte-cooking-walking-trip/">Piedmont Cooking and Walking</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/lake-district-guided-walk/">Italian Lakes</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/">The Dolomites</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/">Cinque Terre</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-hilltowns-guided-walk/">Tuscany's Hilltowns</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-chianti-guided-walk/">Tuscany's Chianti</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-valdorcia-guided-walk/">Tuscany's Val d'Orcia</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-cooking-walking-trip/">Tuscany Cooking and Walking</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-guided-trek/">Florence to Siena Trek</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-garfagnana-guided-hike/">Tuscany's Garfagnana</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/umbria-guided-walk/">Umbria</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/le-marche-guided-walk/">Le Marche's Monti Azzurri</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/sibillini-guided-hike/">Le Marche's Sibillini</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/lazio-ciociaria-guided-walk/">Lazio's Ciociaria</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/molise-guided-hike/">Molise</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/abruzzo-guided-trek/">Abruzzo's Parco Nazionale</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/">Amalfi Coast</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-cooking-walking-trip/">Amalfi Coast Cooking and Walking</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/puglia-walk-guided-walk/">Puglia and Basilicata</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/calabria-guided-walk/">Calabria's Magna Grecia</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/western-sicily-guided-walk/">Sicily's Western Seaboard</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/">Sicily's Eastern Seaboard</a></li>
+                </ul>
+              </div>
+              <div class="dropdown-column">
+                <h3>Self-guided trips</h3>
+                <ul>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/piemonte-self-guided-walk/">Piemonte Walk</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/">Italian Lakes District Hike</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/veneto-self-guided-walk/">Veneto Walk</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/cinque-terre-self-guided-walk/">Cinque Terre Hike</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/">Tuscany Walk</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-hike/">Tuscany Hike</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-chianti-self-guided-walk/">Chianti Walk</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-maremma-self-guided-walk/">Maremma Hike</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/umbria-self-guided-walk/">Umbria Walk</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/umbria-self-guided-hike/">Umbria Hike</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/">Amalfi Coast Hike</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/puglia-self-guided-walk/">Puglia Walk</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/western-sicily-self-guided-walk/">Western Sicily Walk</a></li>
+                  <li><a href="https://www.girosole.com/italy-walking-tours/sicily-self-guided-walk/">Eastern Sicily Walk</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- Mobile Version -->
+        <li class="mobile-nav">
+          <a href="#" class="item find-a-trip-nav">FIND A TRIP</a>
+          <div class="mobile-accordio">
+            <div class="accordion-item">
+              <h3 class="accordion-header">Guided Walks <div class="arrow"></div>
+              </h3>
+              <ul class="accordion-content">
+                <li><a href="https://www.girosole.com/italy-walking-tours/gran-paradiso-guided-trek/">Valle d'Aosta's Gran Paradiso</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/">Piedmont's Langhe District</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/piemonte-cooking-walking-trip/">Piedmont Cooking and Walking</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/lake-district-guided-walk/">Italian Lakes</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/">The Dolomites</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/">Cinque Terre</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-hilltowns-guided-walk/">Tuscany's Hilltowns</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-chianti-guided-walk/">Tuscany's Chianti</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-valdorcia-guided-walk/">Tuscany's Val d'Orcia</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-cooking-walking-trip/">Tuscany Cooking and Walking</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-guided-trek/">Florence to Siena Trek</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-garfagnana-guided-hike/">Tuscany's Garfagnana</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/umbria-guided-walk/">Umbria</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/le-marche-guided-walk/">Le Marche's Monti Azzurri</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/sibillini-guided-hike/">Le Marche's Sibillini</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/lazio-ciociaria-guided-walk/">Lazio's Ciociaria</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/molise-guided-hike/">Molise</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/abruzzo-guided-trek/">Abruzzo's Parco Nazionale</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/">Amalfi Coast</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-cooking-walking-trip/">Amalfi Coast Cooking and Walking</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/puglia-walk-guided-walk/">Puglia and Basilicata</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/calabria-guided-walk/">Calabria's Magna Grecia</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/western-sicily-guided-walk/">Sicily's Western Seaboard</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/">Sicily's Eastern Seaboard</a></li>
+              </ul>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">Self-guided trips <div class="arrow"></div>
+              </h3>
+              <ul class="accordion-content">
+                <li><a href="https://www.girosole.com/italy-walking-tours/piemonte-self-guided-walk/">Piemonte Walk</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/">Italian Lakes District Hike</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/veneto-self-guided-walk/">Veneto Walk</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/cinque-terre-self-guided-walk/">Cinque Terre Hike</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/">Tuscany Walk</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-hike/">Tuscany Hike</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-chianti-self-guided-walk/">Chianti Walk</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/tuscany-maremma-self-guided-walk/">Maremma Hike</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/umbria-self-guided-walk/">Umbria Walk</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/umbria-self-guided-hike/">Umbria Hike</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/">Amalfi Coast Hike</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/puglia-self-guided-walk/">Puglia Walk</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/western-sicily-self-guided-walk/">Western Sicily Walk</a></li>
+                <li><a href="https://www.girosole.com/italy-walking-tours/sicily-self-guided-walk/">Eastern Sicily Walk</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+          <li><a href="#">WHY GIROSOLE</a></li>
+          <li><a href="#">BOOK A TRIP</a></li>
+          <li><a href="#">BLOG</a></li>
+        <li><a href="contact-us/" class="contact-us">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+    <div class="hero-content-wrapper">
+
+      <div class="hero-content">
+        <h1>
+          <span class="line1">Pick your own dates,</span>
+          <span class="line2">bring your own mates.</span>
+        </h1>
+        <p class="subtitle">Italy walking tours made just for you.</p>
+      </div>
+      </div>
+    </section>
+  <div class="mobile-hero-content">
+    <p class="h3 white"><span class="text-normal">Pick your own dates, </span><span>bring your own mates.</span></p>
+  </div>
+
+    <!-- Best Selling Tours Section -->
+    <section class="best-selling">
+      <h2 class="section-title">Best selling tours</h2>
+
+      <div class="tours-grid">
+        <!-- Amalfi Coast Card -->
+        <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-1.jpg')">
+
+          </div>
+          <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/" class="more-btn">MORE <img
+              src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/">
+            <h3>Amalfi Coast</h3>
+          </a>
+            <p class="tour-type">Guided walks</p>
+            <p class="tour-description">Discover Italy's paradise coast</p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              It’s no wonder la costiera amalfitana is often hailed as one of the most beautiful coastlines...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/" class="tour-read-more">Read
+              more</a>
+          </div>
+          </div>
+        </div>
+
+        <!-- Tuscany Walk Card -->
+        <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-2.jpg')">
+          </div>
+          <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/" class="more-btn">MORE <img
+              src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/">
+            <h3>Tuscany Walk</h3>
+          </a>
+            <p class="tour-type">Self-guided trip</p>
+            <p class="tour-description">
+              A self-guided adventure from inn to inn
+            </p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              Our Self-Guided Tuscany walking tour is a more relaxed version of our <a
+                href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-hike/">hiking tour</a> in...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/" class="tour-read-more">Read
+              more</a>
+          </div>
+          </div>
+        </div>
+
+        <!-- Italian Lakes District Card -->
+        <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-3.jpg')">
+          </div>
+          <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/" class="more-btn">MORE
+            <img src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/">
+            <h3>Italian Lakes District Hike</h3>
+          </a>
+            <p class="tour-type">Self-guided trip</p>
+            <p class="tour-description">
+              An independent ramble among alpine lakes
+            </p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              Imagine hiking past lakeside villas, elegant towns and glacial lakes nestled among the alpine...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/"
+              class="tour-read-more">Read more</a>
+          </div>
+          </div>
+        </div>
+
+        <!-- Cinque Terre Card -->
+        <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-4.jpg')">
+          </div>
+          <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/" class="more-btn">MORE <img
+              src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/">
+            <h3>Cinque Terre</h3>
+          </a>
+            <p class="tour-type">Guided walks</p>
+            <p class="tour-description">Seascapes of the famous "five lands"</p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              Between blue skies and bluer seas rests the verdant coastline of the Cinque...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/" class="tour-read-more">Read
+              more</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-5.jpg')">
+
+        </div>
+        <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/" class="more-btn">MORE <img
+              src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/">
+            <h3>Piedmont’s Langhe District</h3>
+          </a>
+          <p class="tour-type">Guided walks</p>
+          <p class="tour-description">Walk among the Barolo and Barbaresco vineyards</p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              A wine and gastronomic paradiso awaits you in the Langhe region, historically one of...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/" class="tour-read-more">Read
+              more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-6.jpg')">
+        </div>
+        <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/" class="more-btn">MORE
+            <img src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/">
+            <h3>Amalfi Coast Hike</h3>
+          </a>
+          <p class="tour-type">Self-guided trip</p>
+          <p class="tour-description">
+            Breathtaking vistas from Ravello to Positano
+          </p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              Hike along the cliffside paths built into the rocky coastline between Ravello and Positano,...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/"
+              class="tour-read-more">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Italian Lakes District Card -->
+      <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-7.jpg')">
+        </div>
+        <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/" class="more-btn">MORE <img
+              src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/">
+            <h3>The Dolomites</h3>
+          </a>
+          <p class="tour-type">Guided walks</p>
+          <p class="tour-description">
+            Breathtaking vistas of the Italian alps
+          </p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              The stupendous Dolomites, crossroads of Germanic and Mediterranean cultures, are home to the Ladins,...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/" class="tour-read-more">Read
+              more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cinque Terre Card -->
+      <div class="tour-card">
+        <div class="tour-image" style="background-image: url('assets/images/blog-image-8.jpg')">
+        </div>
+        <div class="tour-content">
+          <a href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/" class="more-btn">MORE <img
+              src="assets/images/ios-arrow-thin-right-white.svg" alt="arrow" class="arrow-icon"></a>
+          <a href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/">
+            <h3>Sicily’s Eastern Seaboard</h3>
+          </a>
+          <p class="tour-type">Guided walks</p>
+          <p class="tour-description">Explore the first colonies of the ancient Greeks</p>
+
+          <div class="tour-read-more-container">
+            <p class="preview-text">
+              Volcanos, Greek theaters, stark mountains, gentle seas, fresh-caught fish, heady rich wines – Sicily...
+            </p>
+            <a href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/" class="tour-read-more">Read
+              more</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+  <section class="features features-desktop">
+      <div class="features-grid">
+        <!-- Discover Feature -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <img src="assets/images/discover-icon.png" alt="" />
+          </div>
+          <h3>Discover</h3>
+          <p>
+            regions as diverse as Tuscany and the Amalfi Coast, Veneto and
+            Puglia, Piemonte and Sicily and many more gems.
+          </p>
+          <div class="feature-links">
+            <a href="#" class="feature-link">Find a trip</a>
+            <a href="#" class="feature-link">Become inspired</a>
+          </div>
+        </div>
+
+        <!-- Customize Feature -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <img src="assets/images/customize-icon.png" alt="" />
+          </div>
+          <h3>Customize</h3>
+          <p>
+            your walking holiday to your own specifications: start date,
+            duration, accommodations, activity level and interests.
+          </p>
+          <div class="feature-links">
+            <a href="#" class="feature-link">How it works</a>
+            <a href="#" class="feature-link">Contact us</a>
+          </div>
+        </div>
+
+        <!-- Choose Feature -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <img src="assets/images/choose-icon.png" alt="" />
+          </div>
+          <h3>Choose</h3>
+          <p>
+            from among dozens of guided and self-guided walking and hiking
+            options throughout Italy.
+          </p>
+          <div class="feature-links">
+            <a href="#" class="feature-link">Guided trips</a>
+            <a href="#" class="feature-link">Self-guided trips</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="features features-mobile">
+    <div class="hr-border"></div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="mobile-feature-icon">
+          <img src="assets/images/discover-mobile.png" alt="" />
+        </div>
+        <h3>Discover. Customize. Choose.</h3>
+        <p>Discover regions as diverse as Tuscany and the Amalfi Coast, Veneto and Puglia, Piemonte and Sicily and many
+          more gems.</p>
+        <div class="feature-links">
+          <a href="#" class="feature-link">Find a trip</a>
+          <a href="#" class="feature-link">Become inspired</a>
+            <a href="#" class="feature-link">Guided trips</a>
+            <a href="#" class="feature-link">Self-guided trips</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Girosole Section -->
+    <section class="why-girosole">
+      <div class="why-girosole-container">
+        <!-- Left Column -->
+        <div class="why-content">
+          <h2>Why Girosole?</h2>
+          <p class="intro">Book a tour with us and you'll tell us exactly:</p>
+          <ul>
+            <li>when and where you want to go</li>
+            <li>how long you want to go for</li>
+            <li>what level of accommodation you prefer</li>
+            <li>how much activity and walking you'd like to do</li>
+            <li>
+              and anything else that'll make your holiday thoroughly perfect
+            </li>
+          </ul>
+          <p class="guarantee">
+            With a personalized tour, you're in charge, so you're guaranteed a
+            great time!
+          </p>
+          <a href="#" class="read-more-btn">READ MORE</a>
+
+          <hr />
+          <!-- Awards Section -->
+          <div class="awards-section">
+            <h3>Some words about us</h3>
+            <div class="press-logos">
+              <img src="assets/images/more-1.png" alt="Budget Travel" />
+              <img src="assets/images/more-2.png" alt="Frommers" />
+              <img src="assets/images/more-3.png" alt="Cooking Light" />
+              <img src="assets/images/more-4.png" alt="USA Today" />
+            </div>
+            <hr />
+            <h3>Excellence since 1998</h3>
+            <div class="tripadvisor-awards">
+              <div class="excellence-certs">
+              <img src="assets/images/certificate-1.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-2.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-3.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-4.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-5.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-6.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-7.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-8.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-9.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-10.png" alt="Travelers Choice 2023" />
+              <img src="assets/images/certificate-11.png" alt="Travelers Choice 2023" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column - Testimonials -->
+        <div class="testimonials">
+          <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+            <img src="assets/images/testimonial-image-1.jpg" alt="Happy travelers" />
+              <div class="testimonial-content">
+              <h3>“...one of the best vacations ever...”</h3>
+              <p>
+                Peggy and I had a fantastic walking tour in Tuscany! We want to give everyone in the Girosole
+                organization who helped contribute a big “molto bene” for making this one of the best vacations ever.
+                It’s obvious that Girosole had done a lot of research on the route, towns, accommodation and
+                ristorantes. Everything that Girosole provided was first class. But what stood out for us was the
+                customer service. We highly recommend Girosole and hope we’ll have the opportunity for returning –
+                perhaps to explore Cinque Terre next time. Thanks once again for a memorable vacation.
+              </p>
+              <p class="testimonial-author">– Robert Leppan and Peggy Dodds</p>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+            <img src="assets/images/testimonial-image-2.jpg" alt="Happy travelers" />
+              <div class="testimonial-content">
+              <h3>“...wonderful and memorable experience...”</h3>
+              <p>
+                A truly wonderful and memorable experience! Luca was not only very knowledgeable and good company; he
+                was always prepared to go the extra mile and nothing was too much trouble for him. We felt thoroughly
+                spoilt. Thank you so much for all your efforts on our behalf. It really was a pleasure dealing with
+                Girosole. Just as an aside: perhaps you should suggest that clients allow for A LOT of extra baggage
+                space for pecorini cheese, paneforte, chianti classico vino, shoes and handbags!!!!!
+              </p>
+              <p class="testimonial-author">– Ann, Tarryn, Hilary, Karen and Junette</p>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+            <img src="assets/images/testimonial-image-3.jpg" alt="Happy travelers" />
+              <div class="testimonial-content">
+              <h3>“...enjoyed our trip immensely...”</h3>
+              <p>
+                Our trip was wonderful! Luca was an excellent guide, very efficient, knowledgeable, and personable. I
+                enjoyed practicing my rusty Italian with him, & he taught me several proverbs & expressions. When he saw
+                I was very interested in Alpine wildflowers he helped me find & identify some along the trails. He was a
+                delightful companion. The tour was very well designed, in terms of our hiking ability & fitness level.
+                We started with a fairly easy hike & worked our way up to more challenging. At the end we felt like we’d
+                had a good workout, but were not exhausted. The other couple in our group were very close to us in terms
+                of experience & fitness. We’d recommend your tours to any active people who want to see Italy off the
+                beaten path. We enjoyed our trip immensely & will remember it (& Luca) fondly. Thanks!
+              </p>
+              <p class="testimonial-author">– Harry Vayo & Linda Woods</p>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+            <img src="assets/images/testimonial-image-4.jpg" alt="Happy travelers" />
+              <div class="testimonial-content">
+              <h3>“...the perfect combination...”</h3>
+              <p>
+                We had a marvelous trip, and much of it was due to the planning that went into the Girosole itinerary –
+                it was the perfect combination of walking, scenery, history, culture, time spent with the group, and
+                time to explore on our own. I can’t imagine a better way to see the Amalfi coast. Our guide Ulisse was
+                very friendly and helpful – he did a wonderful job of keeping us organized, giving us the history of the
+                area, and providing advice on things to do when we were on our own. We would like to travel again with
+                Girosole (maybe Tuscany next time) and will certainly recommend the walking tours to all of our friends.
+                </p>
+                <p class="testimonial-author">– Christie and Bill Waters</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="best-selling blog-page-containner">
+      <h2 class="section-title">Latest articles from the blog</h2>
+    <div class="blog-grid">
+      <!-- Blog Post 1 -->
+      <article class="blog-post">
+        <div class="post-image">
+          <img src="../assets/images/blog-image-9.jpg" alt="Tuscan Spring Fields" />
+        </div>
+        <div class="post-content">
+          <h3>
+            <a
+              href="https://www.girosole.com/italy-travel-info/inspirations/colors-of-a-tuscan-spring-walking-through-the-fields-of-poppies/">Colors
+              Of A Tuscan Spring: Walking Through The Fields Of Poppies</a>
+          </h3>
+          <p class="post-excerpt">
+            By Daria Radler After months of impatient waiting it finally happened. Spring had been announcing its
+            arrival slowly but steadily. It had been unfolding like a Christmas calendar that, instead of chocolate,
+            gave me a new leaf along with a new shade of green […]
+          </p>
+          <div class="read-more-container">
+            <a href="https://www.girosole.com/italy-travel-info/inspirations/colors-of-a-tuscan-spring-walking-through-the-fields-of-poppies/"
+              class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog Post 2 -->
+      <article class="blog-post">
+        <div class="post-image">
+          <img src="../assets/images/blog-image-10.jpg" alt="Brolio Castle" />
+        </div>
+        <div class="post-content">
+          <h3>
+            <a
+              href="https://www.girosole.com/italy-travel-info/inspirations/to-the-roots-of-chianti-classico-a-hike-up-to-the-brolio-castle/">To
+              The Roots Of Chianti Classico: A Hike Up To The Brolio Castle</a>
+          </h3>
+          <p class="post-excerpt">
+            By Daria Radler I am walking along a gravel road that zigzags through the woods. The atmosphere feels
+            unimposing, though one of Tuscany’s most important castles waits at the top of the hill. Here and there, a
+            sign points to a supposed shortcut. 600 […]</p>
+          <div class="read-more-container">
+            <a href="https://www.girosole.com/italy-travel-info/inspirations/to-the-roots-of-chianti-classico-a-hike-up-to-the-brolio-castle/"
+              class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </article>
+    </div>
+    </section>
+
+  <!-- Instagram Section -->
+  <div class="instagram-section">
+    <div class="instagram-header">
+      <h2>Instagram <span class="hashtag">#girosole</span></h2>
+      <div class="social-links">
+        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon pinterest"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <img src="../assets/logo/logo.png" alt="Girosole Logo" class="footer-logo" />
+        <p class="copyright">Copyright © 1998-2025 GIROSOLE.</p>
+        <p class="address">
+          All Rights Reserved. 1745 Niagara Street, Denver, CO 80220
+        </p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-column">
+          <ul>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">PRIVACY</a></li>
+            <li><a href="#">TERMS AND CONDITIONS</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <ul>
+            <li><a href="#" class="find-a-trip-a">FIND A TRIP</a></li>
+            <li><a href="#">ALL TOURS</a></li>
+            <li><a href="#">GUIDED WALKS</a></li>
+            <li><a href="#">SELF-GUIDED TOURS</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="footer-right">
+            <img
+              src="../assets/logo/logo.png"
+              alt="Girosole Logo"
+              class="footer-small-logo"
+            />
+          </div> -->
+    </div>
+  </footer>
+
+    <!-- Mobile Menu JavaScript -->
+    <script>
+    // Mobile menu toggle
+      document
+        .querySelector(".mobile-menu-btn")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+        // Toggle menu icons
+        this.querySelector(".menu-open").style.display =
+          this.querySelector(".menu-open").style.display === "none" ? "block" : "none";
+        this.querySelector(".menu-close").style.display =
+          this.querySelector(".menu-close").style.display === "none" ? "block" : "none";
+      });
+
+    // FIND A TRIP toggle
+    document
+      .querySelector(".dropdown-toggle")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        this.classList.toggle("active");
+        document.querySelector(".dropdown-menu").classList.toggle("show");
+
+        // For mobile: show accordion by default when menu opens
+        if (window.innerWidth <= 817) {
+          document.querySelector(".mobile-accordion").style.display = "block";
+        }
+      });
+
+    // Accordion behavior for mobile
+    const accordionHeaders = document.querySelectorAll(".accordion-header");
+    accordionHeaders.forEach(header => {
+      header.addEventListener("click", function () {
+        const item = this.closest(".accordion-item");
+
+        // Toggle active state
+        item.classList.toggle("active");
+
+        // Close other accordions
+        accordionHeaders.forEach(otherHeader => {
+          const otherItem = otherHeader.closest(".accordion-item");
+          if (otherItem !== item) {
+            otherItem.classList.remove("active");
+          }
+        });
+      });
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest(".dropdown")) {
+        document.querySelector(".dropdown-menu").classList.remove("show");
+      }
+        });
+
+      // Testimonial Slider
+      const dots = document.querySelectorAll(".dot");
+    const slides = document.querySelectorAll(".testimonial-slide");
+    let currentSlide = 0;
+    let slideInterval;
+
+    // Function to show specific slide
+    function showSlide(index) {
+      // Remove active class from all dots and slides
+      dots.forEach(d => d.classList.remove("active"));
+      slides.forEach(s => s.classList.remove("active"));
+
+      // Add active class to current dot and slide
+      dots[index].classList.add("active");
+      slides[index].classList.add("active");
+      currentSlide = index;
+    }
+
+    // Function to show next slide
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+
+    // Start auto sliding
+    function startSlideShow() {
+      if (slideInterval) {
+        clearInterval(slideInterval);
+      }
+      slideInterval = setInterval(nextSlide, 5000);
+    }
+
+    // Add click event to dots
+      dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+        showSlide(index);
+        // Reset interval when manually changing slides
+        startSlideShow();
+      });
+    });
+
+    // Start the slideshow
+    startSlideShow();
+
+    // Pause on hover
+    const testimonialSlider = document.querySelector(".testimonial-slider");
+    testimonialSlider.addEventListener("mouseenter", () => {
+      clearInterval(slideInterval);
+    });
+
+    testimonialSlider.addEventListener("mouseleave", () => {
+      startSlideShow();
+      });
+    </script>
+  </body>
+
+</html>
