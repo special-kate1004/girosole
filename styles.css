@@ -1,102 +1,101 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /* Muli Font Face Declarations */
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-Regular.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-Light.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-ExtraLight.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-SemiBold.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-Bold.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-ExtraBold.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-Black.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-Italic.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-LightItalic.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-ExtraLightItalic.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-ExtraLightItalic.ttf') format('truetype');
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-SemiBoldItalic.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-BoldItalic.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-ExtraBoldItalic.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-ExtraBoldItalic.ttf') format('truetype');
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Muli';
-  src: url('assets/fonts/muli/Muli-BlackItalic.ttf') format('truetype');
+  src: url('/assets/fonts/muli/Muli-BlackItalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
@@ -106,6 +105,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Muli", Arial, sans-serif;
 }
 
 input::-webkit-outer-spin-button,
@@ -117,7 +117,6 @@ input::-webkit-inner-spin-button {
 body {
   font-family: "Muli", Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.85714;
   color: #323232;
 }
 
@@ -152,9 +151,8 @@ body {
 }
 
 .contact-us {
-  color: #46A5E6 !important;
+  color: #46a5e6 !important;
 }
-
 
 .nav-links ul {
   display: flex;
@@ -212,7 +210,7 @@ body {
   top: 70px;
   left: 0;
   width: 100vw;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 1001;
   padding: 30px 0;
   margin-top: 0;
@@ -236,22 +234,23 @@ body {
 }
 
 .dropdown-column h3 {
-  color: #EE7433;
+  color: #ee7433;
   font-size: 24px;
   margin-bottom: 20px;
   font-weight: 900;
+  font-family: "Muli", Arial, sans-serif !important;
 }
 
 .dropdown-column ul {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 8px;
   overflow-y: auto;
   height: 400px;
   direction: rtl;
   padding-left: 30px;
   font-size: 14px;
-  border-left: solid 1px #D7D7D7;
+  border-left: solid 1px #d7d7d7;
 }
 
 .dropdown-column ul li {
@@ -264,6 +263,8 @@ body {
   text-decoration: none;
   transition: color 0.3s ease;
   font-weight: 400;
+  font-family: "Muli", Arial, sans-serif !important;
+  font-size: 14px;
 }
 
 .dropdown-column ul li a:hover {
@@ -282,13 +283,12 @@ body {
 }
 
 .dropdown-column ul::-webkit-scrollbar-thumb {
-  background: #EE7433;
+  background: #ee7433;
 }
 
 .dropdown-column ul::-webkit-scrollbar-thumb:hover {
   background: #d65d1e;
 }
-
 
 .social-icons {
   display: flex;
@@ -323,12 +323,11 @@ body {
   cursor: pointer;
 }
 
-
-.nav-links.active~.mobile-menu-btn .menu-open {
+.nav-links.active ~ .mobile-menu-btn .menu-open {
   display: none;
 }
 
-.nav-links.active~.mobile-menu-btn .menu-close {
+.nav-links.active ~ .mobile-menu-btn .menu-close {
   display: block;
 }
 
@@ -454,7 +453,7 @@ body {
 
 .tour-card {
   background: #fff;
-  border: 1px solid #D7D7D7;
+  border: 1px solid #d7d7d7;
   transition: all 0.3s ease;
   position: relative;
   height: 500px;
@@ -556,10 +555,10 @@ body {
 }
 
 .tour-description {
-  color: #6E6E6E;
+  color: #6e6e6e;
   font-size: 18px;
   line-height: 1.8;
-  font-family: 'Playfair Display', Times, serif;
+  font-family: "Playfair Display", Times, serif;
   font-style: italic;
   font-weight: 400;
 }
@@ -571,7 +570,7 @@ body {
   font-weight: 600;
   display: inline-block;
   margin-bottom: 8px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   margin-top: 15px;
 }
 
@@ -614,7 +613,7 @@ body {
 }
 
 .hr-border {
-  border-top: 1px solid #D7D7D7;
+  border-top: 1px solid #d7d7d7;
   margin: 0 0 50px 0;
 }
 
@@ -626,7 +625,6 @@ body {
   max-width: 100%;
   max-height: 120px;
 }
-
 
 .features {
   max-width: 1300px;
@@ -646,7 +644,7 @@ body {
 .feature-card {
   text-align: center;
   padding: 30px;
-  border: 1px solid #D7D7D7;
+  border: 1px solid #d7d7d7;
   transition: transform 0.3s ease;
 }
 
@@ -675,14 +673,14 @@ body {
 
 .feature-card p {
   margin-bottom: 15px;
-  color: #6E6E6E !important;
+  color: #6e6e6e !important;
 }
 
 .feature-links {
   display: flex;
   flex-direction: column;
   font-weight: 700;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 14px;
 }
 
@@ -732,7 +730,7 @@ body {
   font-size: 2.5em;
   margin: 28px 0px !important;
   font-weight: 900;
-  font-family: 'Muli', Arial, sans-serif;
+  font-family: "Muli", Arial, sans-serif;
 }
 
 .why-content .intro {
@@ -778,7 +776,7 @@ body {
 .why-content hr {
   border: none;
   border-top: 1px solid #eeeeee;
-  border-color: #D7D7D7;
+  border-color: #d7d7d7;
   margin: 30px 0px;
 }
 
@@ -847,7 +845,7 @@ body {
   width: 100%;
   background: #fff;
   transition: opacity 1s ease;
-  border: 1px solid #D7D7D7;
+  border: 1px solid #d7d7d7;
 }
 
 .testimonial-slide.active {
@@ -871,7 +869,7 @@ body {
   margin-bottom: 20px;
   font-style: italic;
   font-family: "Playfair Display", Times, serif;
-  color: #6E6E6E;
+  color: #6e6e6e;
 }
 
 .testimonial-content p {
@@ -1000,7 +998,7 @@ body {
 
   .feature-card p {
     font-size: 14px;
-    color: #6E6E6E !important;
+    color: #6e6e6e !important;
   }
 
   .press-logos {
@@ -1020,12 +1018,12 @@ body {
     left: 0;
     width: 100%;
     height: calc(100dvh - 70px);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 10px 15px 15px 15px;
     z-index: 2000;
   }
 
-  .nav-links ul{
+  .nav-links ul {
     overflow-y: auto;
     padding-right: 15px;
     height: 100%;
@@ -1047,16 +1045,14 @@ body {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 15px;
-    color: #D7D7D7;
+    color: #d7d7d7;
     list-style-type: none;
     padding: 15px 0;
     line-height: 1.85714;
   }
 
-
-
   .accordion-header {
-    color: #EE7433;
+    color: #ee7433;
     font-weight: 900 !important;
     font-size: 15px;
     display: block;
@@ -1069,22 +1065,22 @@ body {
   }
 
   /* Custom scrollbar styles */
-.nav-links ul::-webkit-scrollbar {
-  width: 3px;
-}
+  .nav-links ul::-webkit-scrollbar {
+    width: 3px;
+  }
 
-.nav-links ul::-webkit-scrollbar-track {
-  background: transparent;
-  border-right: 1px solid #e0e0e0;
-}
+  .nav-links ul::-webkit-scrollbar-track {
+    background: transparent;
+    border-right: 1px solid #e0e0e0;
+  }
 
-.nav-links ul::-webkit-scrollbar-thumb {
-  background: #EE7433;
-}
+  .nav-links ul::-webkit-scrollbar-thumb {
+    background: #ee7433;
+  }
 
-.nav-links ul::-webkit-scrollbar-thumb:hover {
-  background: #d65d1e;
-}
+  .nav-links ul::-webkit-scrollbar-thumb:hover {
+    background: #d65d1e;
+  }
 
   .accordion-item.active .accordion-header i {
     transform: rotate(180deg);
@@ -1101,16 +1097,16 @@ body {
     border-bottom: 1px solid #e0e0e0;
   }
 
-
   .accordion-item.active .accordion-content {
     max-height: none;
     opacity: 1;
     visibility: visible;
     list-style-type: none;
-    border-left: solid 1px #D7D7D7;
+    border-left: solid 1px #d7d7d7;
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
+    gap: 10px;
     text-transform: none !important;
   }
 
@@ -1126,7 +1122,7 @@ body {
   .accordion-content li a {
     color: #323232 !important;
     font-size: 14px !important;
-    font-weight: 400 ;
+    font-weight: 400;
     padding: 0;
     font-weight: normal !important;
     display: block;
@@ -1144,7 +1140,6 @@ body {
     z-index: 2001;
   }
 
-
   .nav-links.active {
     display: block;
   }
@@ -1154,7 +1149,6 @@ body {
     align-items: flex-start;
     gap: 0px;
   }
-
 
   .nav-links ul li {
     padding: 15px 0;
@@ -1185,11 +1179,10 @@ body {
     align-items: center;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 15px !important;
   }
 
   .nav-links ul li a i {
-    color: #EE7433;
+    color: #ee7433;
     font-size: 14px;
     transition: transform 0.3s ease;
   }
@@ -1214,7 +1207,7 @@ body {
   }
 
   .dropdown-column h3 {
-    color: #EE7433;
+    color: #ee7433;
     font-size: 16px;
     margin-bottom: 10px;
   }
@@ -1240,7 +1233,7 @@ body {
 
   .mobile-hero-content {
     display: block;
-    background-color: #FFCD66 !important;
+    background-color: #ffcd66 !important;
     padding: 15px !important;
     text-align: center;
     color: #fff;
@@ -1255,7 +1248,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
   /* Responsive Dropdown Styles */
   .dropdown-menu {
     position: static;
@@ -1290,8 +1282,6 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
-
 
   .hero {
     padding-left: 5%;
@@ -1449,8 +1439,6 @@ body {
     font-size: 20px;
   }
 }
-
-
 
 /* Instagram Section */
 .instagram-section {
@@ -1617,7 +1605,7 @@ body {
   }
 
   .hero-content {
-    top: -3rem
+    top: -3rem;
   }
 }
 
@@ -1635,10 +1623,12 @@ body {
   .social-links {
     display: none;
   }
+  .instagram-header h2 {
+    font-size: 1.41429em;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
   .footer {
     padding: 20px 4px;
   }

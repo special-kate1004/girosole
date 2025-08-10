@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find a Trip - Girosole Italy Walking Tours</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo/favicon.png">
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div id="navbar"></div>
+
+    <!-- Main Content -->
+    <section class="hero"></section>
+    <div class="main-content">
+      <div class="content-container">
+        <!-- Left Content -->
+        <div class="left-content">
+        <h1>Find a trip</h1>
+        <h2>Personalize your trip according to your own preferences</h2>
+
+          <div class="intro-text">
+          <p>Book a tour with us and you tell us exactly</p>
+          <ul>
+            <li>when and where you want to go</li>
+            <li>how long you want to go for</li>
+            <li>what level of accommodation you prefer</li>
+              <li>how much activity and walking you'd like to do</li>
+              <li>
+                and anything else that'll make your holiday thoroughly perfect
+              </li>
+          </ul>
+          </div>
+
+          <div class="call-to-action">
+          <p>
+            Browse our comprehensive selection of Italy walking tours below,
+                then <a href="/contact-us/" class="contact-link">contact us</a>, tell us what
+                you'd like to do and we'll help you create a wonderfully memorable
+                walking holiday in Italy!
+          </p>
+        </div>
+      </div>
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+          <div class="filter-container">
+            <h3>Choose one or more categories</h3>
+            <div class="filter-section">
+              <h4>Choose a region</h4>
+              <div class="filter-dropdown" onclick="toggleDropdown(this)">
+                <div
+                  class="selected-items"
+                  data-placeholder="All regions"
+                ></div>
+                <div class="dropdown-options">
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Abruzzo (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Basilicata (2)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Calabria (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Campania (3)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Chianti (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Lazio (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Liguria (2)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Lombardia (2)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Marche (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Marche (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Molise (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Piemonte (5)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Puglia (2)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Sicilia (4)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Toscana (10)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Trentino Alto Adige (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Umbria (4)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Val d'Aosta (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'region')">
+                    Veneto (1)
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-section">
+              <h4>Interests and activities</h4>
+              <div class="filter-dropdown" onclick="toggleDropdown(this)">
+                <div
+                  class="selected-items"
+                  data-placeholder="All activities"
+                ></div>
+                <div class="dropdown-options">
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Antiquity (19)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Cooking (12)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Food (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Harvests (2)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Hiking (6)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Hilltowns (7)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    History (14)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Walking (16)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Wildlife (3)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Wine (8)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'interest')">
+                    Wineries (12)
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-section">
+              <h4>Landscapes</h4>
+              <div class="filter-dropdown" onclick="toggleDropdown(this)">
+                <div
+                  class="selected-items"
+                  data-placeholder="All landscapes"
+                ></div>
+                <div class="dropdown-options">
+                  <div class="option" onclick="selectOption(this, 'landscape')">
+                    Countryside (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'landscape')">
+                    Lakeside (2)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'landscape')">
+                    Mountains (1)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'landscape')">
+                    Coast (2)
+                  </div>
+                  <div class="option" onclick="selectOption(this, 'landscape')">
+                    Seaside (12)
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="search-btn">Search</button>
+          </div>
+        </div>
+      </div>
+      <div class="tours-grid">
+        <!-- Amalfi Coast Card -->
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-1.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/"
+            >
+              <h3>Amalfi Coast</h3>
+            </a>
+            <p class="tour-type">Guided walks</p>
+            <p class="tour-description">Discover Italy's paradise coast</p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                It’s no wonder la costiera amalfitana is often hailed as one of
+                the most beautiful coastlines...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/amalfi-coast-guided-walk/"
+                class="tour-read-more"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Tuscany Walk Card -->
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-2.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/"
+            >
+              <h3>Tuscany Walk</h3>
+            </a>
+            <p class="tour-type">Self-guided trip</p>
+            <p class="tour-description">
+              A self-guided adventure from inn to inn
+            </p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                Our Self-Guided Tuscany walking tour is a more relaxed version
+                of our
+                <a
+                  href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-hike/"
+                  >hiking tour</a
+                >
+                in...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/tuscany-self-guided-walk/"
+                class="tour-read-more"
+                >Read more</a
+              >
+        </div>
+      </div>
+    </div>
+
+        <!-- Italian Lakes District Card -->
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-3.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/"
+            >
+              <h3>Italian Lakes District Hike</h3>
+            </a>
+            <p class="tour-type">Self-guided trip</p>
+            <p class="tour-description">
+              An independent ramble among alpine lakes
+            </p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                Imagine hiking past lakeside villas, elegant towns and glacial
+                lakes nestled among the alpine...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/lake-district-walk-self-guided/"
+                class="tour-read-more"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Cinque Terre Card -->
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-4.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/"
+            >
+              <h3>Cinque Terre</h3>
+            </a>
+            <p class="tour-type">Guided walks</p>
+            <p class="tour-description">Seascapes of the famous "five lands"</p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                Between blue skies and bluer seas rests the verdant coastline of
+                the Cinque...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/cinque-terre-guided-walk/"
+                class="tour-read-more"
+                >Read more</a
+              >
+        </div>
+      </div>
+    </div>
+
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-5.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/"
+            >
+              <h3>Piedmont’s Langhe District</h3>
+            </a>
+            <p class="tour-type">Guided walks</p>
+            <p class="tour-description">
+              Walk among the Barolo and Barbaresco vineyards
+            </p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                A wine and gastronomic paradiso awaits you in the Langhe region,
+                historically one of...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/piemonte-guided-walk/"
+                class="tour-read-more"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-6.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/"
+            >
+              <h3>Amalfi Coast Hike</h3>
+            </a>
+            <p class="tour-type">Self-guided trip</p>
+            <p class="tour-description">
+              Breathtaking vistas from Ravello to Positano
+            </p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                Hike along the cliffside paths built into the rocky coastline
+                between Ravello and Positano,...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/amalfi-coast-self-guided-walk/"
+                class="tour-read-more"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Italian Lakes District Card -->
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-7.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/"
+            >
+              <h3>The Dolomites</h3>
+            </a>
+            <p class="tour-type">Guided walks</p>
+            <p class="tour-description">
+              Breathtaking vistas of the Italian alps
+            </p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                The stupendous Dolomites, crossroads of Germanic and
+                Mediterranean cultures, are home to the Ladins,...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/dolomites-guided-trek/"
+                class="tour-read-more"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Cinque Terre Card -->
+        <div class="tour-card">
+          <div
+            class="tour-image"
+            style="background-image: url('../assets/images/blog-image-8.jpg')"
+          ></div>
+          <div class="tour-content">
+            <a
+              href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/"
+              class="more-btn"
+              >MORE
+              <img
+                src="../assets/images/ios-arrow-thin-right-white.svg"
+                alt="arrow"
+                class="arrow-icon"
+            /></a>
+            <a
+              href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/"
+            >
+              <h3>Sicily’s Eastern Seaboard</h3>
+            </a>
+            <p class="tour-type">Guided walks</p>
+            <p class="tour-description">
+              Explore the first colonies of the ancient Greeks
+            </p>
+
+            <div class="tour-read-more-container">
+              <p class="preview-text">
+                Volcanos, Greek theaters, stark mountains, gentle seas,
+                fresh-caught fish, heady rich wines – Sicily...
+              </p>
+              <a
+                href="https://www.girosole.com/italy-walking-tours/sicily-guided-walk/"
+                class="tour-read-more"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="instaStrip"></div>
+    <div id="footer"></div>
+
+
+    <script src="../js/loadComponent.js"></script>
+    <script>
+      // Mobile Menu Toggle
+      document
+        .querySelector(".mobile-menu-btn")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+        });
+
+      // Dropdown Functionality
+      function toggleDropdown(dropdown) {
+        // Close all other dropdowns
+        document.querySelectorAll(".filter-dropdown").forEach((d) => {
+          if (d !== dropdown) d.classList.remove("active");
+        });
+
+        // Toggle current dropdown
+        dropdown.classList.toggle("active");
+
+        // Update visible options
+        if (dropdown.classList.contains("active")) {
+          updateDropdownOptions(dropdown);
+        }
+
+        event.stopPropagation();
+      }
+
+      function updateDropdownOptions(dropdown) {
+        const selectedItems = dropdown.querySelector(".selected-items");
+        const options = dropdown.querySelectorAll(".option");
+        const selectedTexts = Array.from(selectedItems.children).map((item) =>
+          item.textContent.trim().replace("×", "").trim()
+        );
+
+        options.forEach((option) => {
+          if (selectedTexts.includes(option.textContent.trim())) {
+            option.style.display = "none";
+          } else {
+            option.style.display = "block";
+          }
+        });
+      }
+
+      function selectOption(option, type) {
+        const dropdown = option.closest(".filter-dropdown");
+        const selectedItems = dropdown.querySelector(".selected-items");
+        const text = option.textContent;
+
+        // Don't add if already selected
+        const existingItems = Array.from(selectedItems.children).map((item) =>
+          item.textContent.trim().replace("×", "").trim()
+        );
+        if (existingItems.includes(text.trim())) {
+          return;
+        }
+
+        // Create selected item
+        const item = document.createElement("div");
+        item.className = "selected-item";
+        item.innerHTML = `
+          <span class="remove-item" onclick="removeItem(this, event)">×</span>
+          ${text}
+        `;
+
+        selectedItems.appendChild(item);
+        dropdown.classList.remove("active");
+        event.stopPropagation();
+      }
+
+      function removeItem(removeBtn, event) {
+        const item = removeBtn.parentElement;
+        const dropdown = item.closest(".filter-dropdown");
+        item.remove();
+
+        // Update dropdown options when item is removed
+        updateDropdownOptions(dropdown);
+
+        event.stopPropagation();
+      }
+
+      // Close dropdowns when clicking outside
+      document.addEventListener("click", function () {
+        document.querySelectorAll(".filter-dropdown").forEach((d) => {
+          d.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
