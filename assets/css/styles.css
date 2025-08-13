@@ -172,6 +172,10 @@ body {
   opacity: 0.7;
 }
 
+.dropdown-toggle{
+  cursor: pointer;
+}
+
 .dropdown-toggle .arrow {
   display: inline-block;
   width: 0;
