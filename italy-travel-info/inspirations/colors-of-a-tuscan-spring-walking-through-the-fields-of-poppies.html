@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog - Girosole Italy Walking Tours</title>
     <link rel="icon" type="image/x-icon" href="../../assets/logo/favicon.png" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/italy-travel-info.css" />
-    <link rel="stylesheet" href="./assets/css/blog-detail.css" />
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+    <link rel="stylesheet" href="../../assets/css/italy-travel-info.css" />
+    <link rel="stylesheet" href="../../assets/css/blog-detail.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -27,18 +27,18 @@
       nonce="random_nonce"
     ></script>
 
-      <!-- Blog Filter Menu -->
-      <div class="blog-filter">
-        <ul>
-          <li><a href="#">Best of Italy</a></li>
-          <li><a href="#">Favorite walks</a></li>
-          <li><a href="#">Inspirations</a></li>
-          <li><a href="#">Italian traditions</a></li>
-          <li><a href="#">Italy Travel Tips</a></li>
-          <li><a href="#">Practicalities</a></li>
-          <li><a href="#">Special places</a></li>
-        </ul>
-      </div>
+    <!-- Blog Filter Menu -->
+    <div class="blog-filter">
+      <ul>
+        <li><a href="#">Best of Italy</a></li>
+        <li><a href="#">Favorite walks</a></li>
+        <li><a href="#">Inspirations</a></li>
+        <li><a href="#">Italian traditions</a></li>
+        <li><a href="#">Italy Travel Tips</a></li>
+        <li><a href="#">Practicalities</a></li>
+        <li><a href="#">Special places</a></li>
+      </ul>
+    </div>
 
     <!-- Blog Content -->
     <div class="blog-page-containner">
@@ -47,7 +47,7 @@
           <!-- Hero Image -->
           <div class="hero-image">
             <img
-              src="../../assets/images/blog-1.jpg"
+              src="../../../assets/images/blog-1.jpg"
               alt="Fields of poppies and sunflowers in Tuscany"
             />
           </div>
@@ -510,13 +510,26 @@
           <!-- Request Info Form -->
           <div class="request-info">
             <h3>Request more info</h3>
-            <form id="requestForm" action="https://formsubmit.co/pokydkomylana@gmail.com" method="POST" novalidate>
+            <form
+              id="requestForm"
+              action="https://formsubmit.co/tours@girosole.com"
+              method="POST"
+              novalidate
+            >
               <!-- FormSubmit Configuration -->
-              <input type="hidden" name="_subject" value="Blog Information Request">
-              <input type="hidden" name="_captcha" value="true">
-              <input type="hidden" name="_template" value="table">
-              <input type="hidden" name="_next" value="https://girosole.com/italy-travel-info/blog-detail">
-              <input type="hidden" name="_cc" value="kate@voolt.com">
+              <input
+                type="hidden"
+                name="_subject"
+                value="Blog Information Request"
+              />
+              <input type="hidden" name="_captcha" value="true" />
+              <input type="hidden" name="_template" value="table" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://girosole.com/italy-travel-info/blog-detail"
+              />
+              <input type="hidden" name="_cc" value="kate@voolt.com" />
               <div class="form-group">
                 <input type="text" name="name" placeholder="Name" required />
                 <div class="error-message">The field is required.</div>
@@ -526,10 +539,16 @@
                 <div class="error-message">The field is required.</div>
               </div>
               <div class="form-group">
-                <textarea name="message" placeholder="Comments/questions"></textarea>
+                <textarea
+                  name="message"
+                  placeholder="Comments/questions"
+                ></textarea>
               </div>
               <div class="form-group">
-                <div class="g-recaptcha" data-sitekey="6LfBE58rAAAAAAFF6DnUVDxb4M4PmW9FGJMUoiTm"></div>
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LfBE58rAAAAAAFF6DnUVDxb4M4PmW9FGJMUoiTm"
+                ></div>
               </div>
               <button type="submit">SEND</button>
             </form>
@@ -539,7 +558,7 @@
     </div>
 
     <div id="footer"></div>
-    
+
     <script src="/assets/js/loadComponent.js"></script>
 
     <script>
@@ -687,7 +706,7 @@
           if (isValid) {
             return true;
           }
-      });
+        });
     </script>
   </body>
 </html>

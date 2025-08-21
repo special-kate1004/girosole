@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Book a Tour - Girosole</title> 
-    <link rel="icon" type="image/x-icon" href="../assets/logo/favicon.png">
+    <title>Book a Tour - Girosole</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo/favicon.png" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/book-a-tour.css" />
     <link
@@ -14,7 +14,6 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
-    
     <div id="navbar"></div>
     <!-- Hero Section -->
     <section class="book-hero"></section>
@@ -31,7 +30,9 @@
             <p>
               Please note that, due to the myriad uncertainties created by the
               COVID-19 pandemic, we have changed our
-              <a href="girosole.com">booking and cancellation policies</a>.
+              <a href="./booking-conditions.html"
+                >booking and cancellation policies</a
+              >.
             </p>
           </div>
 
@@ -57,7 +58,8 @@
 
           <p class="terms-link">
             Find full information in our
-            <a href="girosole.com">Booking Terms and Conditions</a>.
+            <a href="./booking-conditions.html">Booking Terms and Conditions</a
+            >.
           </p>
 
           <h3>Booking Form</h3>
@@ -72,23 +74,46 @@
           <div class="booking-form">
             <div class="form-wrapper">
               <h4>Contact Info</h4>
-              <form id="requestForm" action="https://formsubmit.co/pokydkomylana@gmail.com" method="POST" novalidate>
+              <form
+                id="requestForm"
+                action="https://formsubmit.co/tours@girosole.com"
+                method="POST"
+                novalidate
+              >
                 <!-- FormSubmit Configuration -->
-                <input type="hidden" name="_subject" value="Tour Booking Request">
-                <input type="hidden" name="_captcha" value="true">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="https://girosole.com/book-a-tour">
-                <input type="hidden" name="_cc" value="kate@voolt.com">
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Tour Booking Request"
+                />
+                <input type="hidden" name="_captcha" value="true" />
+                <input type="hidden" name="_template" value="table" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://girosole.com/book-a-tour"
+                />
+                <input type="hidden" name="_cc" value="kate@voolt.com" />
                 <div class="form-group">
                   <input type="text" name="name" placeholder="Name" required />
                   <div class="error-message">The field is required.</div>
                 </div>
                 <div class="form-group">
-                  <input type="email" name="email" placeholder="Email" required />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
                   <div class="error-message">The field is required.</div>
                 </div>
                 <div class="form-group">
-                  <input type="tel" name="phone" placeholder="Phone number" required />
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone number"
+                    required
+                  />
                   <div class="error-message">The field is required.</div>
                 </div>
                 <div class="form-group">
@@ -101,13 +126,23 @@
                   <div class="error-message">The field is required.</div>
                 </div>
                 <div class="form-group">
-                  <input type="text" name="callTime" placeholder="Best time to call" required />
+                  <input
+                    type="text"
+                    name="callTime"
+                    placeholder="Best time to call"
+                    required
+                  />
                   <div class="error-message">The field is required.</div>
                 </div>
 
                 <h4>Travel Info</h4>
                 <div class="form-group">
-                  <input type="text" name="tourName" placeholder="Tour name" required />
+                  <input
+                    type="text"
+                    name="tourName"
+                    placeholder="Tour name"
+                    required
+                  />
                   <div class="error-message">The field is required.</div>
                 </div>
                 <div class="form-group">
@@ -188,7 +223,10 @@
                 </div>
 
                 <div class="form-group">
-                  <div class="g-recaptcha" data-sitekey="6LfBE58rAAAAAAFF6DnUVDxb4M4PmW9FGJMUoiTm"></div>
+                  <div
+                    class="g-recaptcha"
+                    data-sitekey="6LfBE58rAAAAAAFF6DnUVDxb4M4PmW9FGJMUoiTm"
+                  ></div>
                 </div>
 
                 <button type="submit" class="send-btn">Send</button>
@@ -199,7 +237,10 @@
 
         <!-- Right Side - Testimonial -->
         <div class="testimonial-box">
-          <img src="../assets/images/testimonial-image-3.jpg" alt="Happy travelers" />
+          <img
+            src="../assets/images/testimonial-image-3.jpg"
+            alt="Happy travelers"
+          />
           <div class="testimonial-content">
             <h3>"...the perfect combination..."</h3>
             <p>

@@ -1,0 +1,38 @@
+.thank-you-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
+}
+
+.thank-you-content img {
+  width: 300px;
+  height: 300px;
+}
+
+.thank-you .social-links a {
+  background-color: #46a5e6;
+}
+
+.thank-you .social-links a i {
+  color: white;
+}
+
+.thank-you .guide-description {
+  margin-bottom: 0;
+}
+
+.thank-you ul {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .thank-you-content {
+    flex-direction: column;
+  }
+
+  .thank-you-content img {
+    width: 100%;
+    height: auto;
+  }
+}

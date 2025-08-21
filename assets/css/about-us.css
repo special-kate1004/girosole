@@ -2,16 +2,96 @@
 .quote-banner {
   margin-top: 70px;
   height: 500px;
-  background-image: url("../../assets/images/genuinely-hero-image.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 10%;
   max-width: 100%;
+}
+
+.quote-banner.genuinely-great-guides {
+  background-image: url("../../assets/images/genuinely-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.about-us {
+  background-image: url("../../assets/images/about-us-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.terrific-testimonials {
+  background-image: url("../../assets/images/italy-tours-testimonials-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.superlative-support {
+  background-image: url("../../assets/images/superlative-support-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.italy-tours-food {
+  background-image: url("../../assets/images/italy-tours-food-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.amazing-activities {
+  background-image: url("../../assets/images/amazing-activities-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.italy-tours-hotels {
+  background-image: url("../../assets/images/italy-tours-hotels-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.italy-tours {
+  background-image: url("../../assets/images/italy-tours-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.privacy {
+  background-image: url("../../assets/images/italy-tours-testimonials-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.booking-conditions {
+  background-image: url("../../assets/images/booking-conditions-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.booking-release {
+  background-image: url("../../assets/images/booking-release-hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quote-banner.thanks {
+  background-image: url("../../assets/images/home-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .quote-banner::before {
@@ -82,6 +162,12 @@ h2 {
   margin-bottom: 60px !important;
 }
 
+.testimonial-item {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
 .guide-description {
   font-family: "Muli", Arial, sans-serif;
   font-size: 14px;
@@ -98,6 +184,13 @@ h2 {
 }
 
 h3 {
+  color: #08386c;
+  font-size: 1.8em;
+  margin: 30px 0;
+  font-weight: 900;
+}
+
+h3.italic {
   font-size: 2em;
   line-height: 1em;
   text-align: center;
@@ -423,7 +516,7 @@ h3 {
     margin: 0 auto;
   }
   .quote {
-    display: none;;
+    display: none;
   }
 
   h1 {

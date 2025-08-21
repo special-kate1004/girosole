@@ -11,7 +11,7 @@
 
 .content-container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 85px;
   align-items: start;
   margin-bottom: 30px;
@@ -23,7 +23,7 @@
 
 /* Left Content */
 .left-content {
-  max-width: 800px;
+  max-width: 100%;
 }
 
 .left-content h1 {

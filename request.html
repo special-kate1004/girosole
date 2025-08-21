@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      GIROSOLE Italy Walking Tours :: Acknowledgement of Risk and Release
+    </title>
+    <meta
+      name="description"
+      content="Acknowledgement of Risk and Release for GIROSOLE Italy walking tours. Required legal document for all tour participants."
+    />
+    <link rel="canonical" href="https://www.girosole.com/booking-release/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="GIROSOLE Italy Walking Tours :: Acknowledgement of Risk and Release"
+    />
+    <meta
+      property="og:description"
+      content="Acknowledgement of Risk and Release for GIROSOLE Italy walking tours. Required legal document for all tour participants."
+    />
+    <meta
+      property="og:url"
+      content="https://www.girosole.com/booking-release/"
+    />
+    <meta property="og:site_name" content="Girosole" />
+    <meta
+      property="og:image"
+      content="https://www.girosole.com/wp-content/uploads/2017/09/aboutus-1024x381.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://www.girosole.com/wp-content/uploads/2017/09/aboutus-1024x381.jpg"
+    />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="381" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:description"
+      content="Since 1998, GIROSOLE has specialized in personalizing top-quality walking tours throughout Italy. Come enjoy an adventure in Italy with us."
+    />
+    <meta
+      name="twitter:title"
+      content="GIROSOLE Italy Walking Tours :: Why adventure with us?"
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.girosole.com/wp-content/uploads/2017/09/aboutus.jpg"
+    />
+
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/about-us.css" />
+    <link rel="stylesheet" href="./assets/css/thanks.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <!-- Quote Banner -->
+    <div class="quote-banner thanks"></div>
+
+    <!-- Main Content -->
+    <div class="main-content thank-you">
+      <div class="content-container">
+        <!-- Left Content -->
+        <div class="left-content">
+          <h1>Requesting a Tour</h1>
+
+          <div class="thank-you-content">
+            <div class="guide-description">
+              <p>
+                Simply put, you choose a destination you’d like to go to, tell
+                us when you’d like to go, and we set up your tour. Then, you
+                decide if you want to keep your tour private to your own group
+                or open it to other travelers, thereby taking advantage of our
+                tier-pricing discounts.
+              </p>
+
+              <p>
+                Whatever the case, you’re
+                <a href="./book-a-tour.html">booking a trip</a> that’s
+                guaranteed to run, no matter the number of participants, so you
+                don’t have to worry about your tour being canceled due to
+                so-called “low participation rates.”
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+          <div class="request-info">
+            <h3>Request more info</h3>
+            <form
+              id="requestForm"
+              action="https://formsubmit.co/tours@girosole.com"
+              method="POST"
+              novalidate
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="More Info About Girosole Requesting a Tour"
+              />
+              <input type="hidden" name="_captcha" value="true" />
+              <input type="hidden" name="_template" value="table" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://girosole.com/about-us/genuinely-great-guides"
+              />
+              <input type="hidden" name="_cc" value="kate@voolt.com" />
+
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Name" required />
+                <div class="error-message">The field is required.</div>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Email" required />
+                <div class="error-message">The field is required.</div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  placeholder="Comments/questions"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LfBE58rAAAAAAFF6DnUVDxb4M4PmW9FGJMUoiTm"
+                ></div>
+                <p
+                  id="captchaError"
+                  style="color: red; display: none; margin-top: 5px"
+                ></p>
+              </div>
+              <button type="submit">SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="./assets/js/loadComponent.js"></script>
+    <script>
+      // Real-time validation for required fields
+      document.querySelectorAll("#requestForm [required]").forEach((field) => {
+        field.addEventListener("input", function () {
+          if (this.value.trim()) {
+            this.nextElementSibling.style.display = "none";
+          }
+        });
+      });
+
+      document
+        .getElementById("requestForm")
+        .addEventListener("submit", function (e) {
+          // Reset all error messages
+          document.querySelectorAll(".error-message").forEach((error) => {
+            error.style.display = "none";
+          });
+
+          // Get required fields
+          const requiredFields = this.querySelectorAll("[required]");
+          let isValid = true;
+
+          requiredFields.forEach((field) => {
+            if (!field.value.trim()) {
+              e.preventDefault(); // Only prevent if validation fails
+              isValid = false;
+              field.nextElementSibling.style.display = "block";
+            }
+          });
+
+          // Check reCAPTCHA
+          const recaptchaResponse = grecaptcha.getResponse();
+          const errorElement = document.getElementById("captchaError");
+
+          if (!recaptchaResponse) {
+            e.preventDefault(); // Prevent submit
+            errorElement.textContent = "Please complete the reCAPTCHA"; // Show error text
+            errorElement.style.display = "block";
+            return;
+          } else {
+            errorElement.style.display = "none"; // Hide error if solved
+          }
+
+          // If everything is valid, let the form submit naturally to formsubmit.co
+          if (isValid) {
+            return true;
+          }
+        });
+    </script>
+  </body>
+</html>
