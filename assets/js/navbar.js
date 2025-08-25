@@ -1,13 +1,17 @@
-  // Mobile menu toggle
-  document
-    .querySelector(".mobile-menu-btn")
-    .addEventListener("click", function () {
-      document.querySelector(".nav-links").classList.toggle("active");
+// Mobile Menu Toggle
+document
+  .querySelector(".mobile-menu-btn")
+  .addEventListener("click", function () {
+    document.querySelector(".nav-links").classList.toggle("active");
     // Toggle menu icons
     this.querySelector(".menu-open").style.display =
-      this.querySelector(".menu-open").style.display === "none" ? "block" : "none";
+      this.querySelector(".menu-open").style.display === "none"
+        ? "block"
+        : "none";
     this.querySelector(".menu-close").style.display =
-      this.querySelector(".menu-close").style.display === "none" ? "block" : "none";
+      this.querySelector(".menu-close").style.display === "none"
+        ? "block"
+        : "none";
   });
 
 // FIND A TRIP toggle
@@ -26,7 +30,7 @@ document
 
 // Accordion behavior for mobile
 const accordionHeaders = document.querySelectorAll(".accordion-header");
-accordionHeaders.forEach(header => {
+accordionHeaders.forEach((header) => {
   header.addEventListener("click", function () {
     const item = this.closest(".accordion-item");
 
@@ -34,7 +38,7 @@ accordionHeaders.forEach(header => {
     item.classList.toggle("active");
 
     // Close other accordions
-    accordionHeaders.forEach(otherHeader => {
+    accordionHeaders.forEach((otherHeader) => {
       const otherItem = otherHeader.closest(".accordion-item");
       if (otherItem !== item) {
         otherItem.classList.remove("active");
@@ -48,4 +52,4 @@ document.addEventListener("click", function (e) {
   if (!e.target.closest(".dropdown")) {
     document.querySelector(".dropdown-menu").classList.remove("show");
   }
-    });
+});

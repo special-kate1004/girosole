@@ -11,84 +11,84 @@
 }
 
 .quote-banner.genuinely-great-guides {
-  background-image: url("../../assets/images/genuinely-hero-image.jpg");
+  background-image: url("/assets/images/genuinely-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.about-us {
-  background-image: url("../../assets/images/about-us-hero-image.jpg");
+  background-image: url("/assets/images/about-us-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.terrific-testimonials {
-  background-image: url("../../assets/images/italy-tours-testimonials-hero-image.jpg");
+  background-image: url("/assets/images/italy-tours-testimonials-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.superlative-support {
-  background-image: url("../../assets/images/superlative-support-hero-image.jpg");
+  background-image: url("/assets/images/superlative-support-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.italy-tours-food {
-  background-image: url("../../assets/images/italy-tours-food-hero-image.jpg");
+  background-image: url("/assets/images/italy-tours-food-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.amazing-activities {
-  background-image: url("../../assets/images/amazing-activities-hero-image.jpg");
+  background-image: url("/assets/images/amazing-activities-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.italy-tours-hotels {
-  background-image: url("../../assets/images/italy-tours-hotels-hero-image.jpg");
+  background-image: url("/assets/images/italy-tours-hotels-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.italy-tours {
-  background-image: url("../../assets/images/italy-tours-hero-image.jpg");
+  background-image: url("/assets/images/italy-tours-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.privacy {
-  background-image: url("../../assets/images/italy-tours-testimonials-hero-image.jpg");
+  background-image: url("/assets/images/italy-tours-testimonials-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.booking-conditions {
-  background-image: url("../../assets/images/booking-conditions-hero-image.jpg");
+  background-image: url("/assets/images/booking-conditions-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.booking-release {
-  background-image: url("../../assets/images/booking-release-hero-image.jpg");
+  background-image: url("/assets/images/booking-release-hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .quote-banner.thanks {
-  background-image: url("../../assets/images/home-image.jpg");
+  background-image: url("/assets/images/home-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -549,6 +549,10 @@ h3.italic {
 }
 
 @media screen and (max-width: 480px) {
+  .quote-banner {
+    height: 180px;
+  }
+
   .fb-like {
     max-width: 280px;
     overflow: hidden;
@@ -559,5 +563,9 @@ h3.italic {
 
   .guide-card img {
     height: 250px;
+  }
+
+  .content-container {
+    display: block;
   }
 }

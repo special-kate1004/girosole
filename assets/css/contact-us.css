@@ -19,7 +19,7 @@
   padding: 0 20px;
 }
 
-.contact-info{
+.contact-info {
   margin-top: 40px;
 }
 
@@ -207,7 +207,6 @@
   }
 }
 
-
 @media screen and (max-width: 992px) {
   .contact-container {
     grid-template-columns: 1fr;
@@ -219,15 +218,15 @@
     padding: 0 20px;
   }
 
-  .contact-form h1{
+  .contact-form h1 {
     font-size: 30px;
   }
 
-  .form-wrapper h2{
+  .form-wrapper h2 {
     font-size: 24px;
   }
 
-  .info-section h4{
+  .info-section h4 {
     font-size: 20px;
   }
 }
@@ -243,5 +242,13 @@
 
   .form-wrapper h2 {
     font-size: 20px;
+  }
+
+  .contactus-hero {
+    height: 180px;
+  }
+
+  .contact-container {
+    display: block;
   }
 }

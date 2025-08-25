@@ -1448,6 +1448,7 @@ body {
 .instagram-section {
   background: #46a5e6;
   padding: 15px 0;
+  display: none;
 }
 
 .instagram-header {
@@ -1644,6 +1645,9 @@ p a {
 }
 
 @media screen and (max-width: 480px) {
+  .hero {
+    min-height: 180px;
+  }
   .footer {
     padding: 20px 4px;
   }

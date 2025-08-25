@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hiking Valle d'Aosta's Gran Paradiso - Girosole</title>
-    <link rel="icon" type="image/x-icon" href="../../assets/logo/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo/favicon.png" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/gran-paradiso-guided-trek.css" />
     <link
@@ -80,7 +80,7 @@
 
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-6.jpg"
+              src="/assets/images/testimonial-image-6.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -202,7 +202,7 @@
 
           <div class="tour-map">
             <img
-              src="../../assets/images/piemonte-self-guided-walk-map.jpg"
+              src="/assets/images/piemonte-self-guided-walk-map.jpg"
               alt="Gran Paradiso Tour Map"
             />
           </div>
@@ -228,15 +228,15 @@
           </ul>
 
           <p class="not-included">
-            (Not included are airfare, <span class="wine">wine</span> and other
-            beverages with alcohol, personal purchases such as laundry, phone
-            calls, frigobar items etc., and anything not specifically included
-            above.)
+            (Not included are airfare,
+            <span class="wine" id="wine-link">wine</span> and other beverages
+            with alcohol, personal purchases such as laundry, phone calls,
+            frigobar items etc., and anything not specifically included above.)
           </p>
 
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-6.jpg"
+              src="/assets/images/testimonial-image-6.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -259,7 +259,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-7.jpg"
+              src="/assets/images/testimonial-image-7.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -285,7 +285,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-8.jpg"
+              src="/assets/images/testimonial-image-8.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -336,7 +336,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-9.jpg"
+              src="/assets/images/testimonial-image-9.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -357,7 +357,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-10.jpg"
+              src="/assets/images/testimonial-image-10.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -382,7 +382,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-5.jpg"
+              src="/assets/images/testimonial-image-5.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -409,7 +409,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-11.jpg"
+              src="/assets/images/testimonial-image-11.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -438,7 +438,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-12.jpg"
+              src="/assets/images/testimonial-image-12.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -469,7 +469,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-13.jpg"
+              src="/assets/images/testimonial-image-13.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -487,7 +487,7 @@
           </div>
           <div class="mobile-testimonial-box testimonial-box">
             <img
-              src="../../assets/images/testimonial-image-14.jpg"
+              src="/assets/images/testimonial-image-14.jpg"
               alt="Happy hikers"
             />
             <div class="testimonial-content">
@@ -510,12 +510,13 @@
             <h3 class="pricing-title">PRICING</h3>
             <p>
               We price this tour for the following
-              <a href="#" class="orange-link">categories of accommodation</a>.
-              We also tier-price based on your group's size. You can keep your
-              tour private to your own group or you can open your tour for other
-              travelers to join, thereby taking advantage of our tier discounts.
-              Single Supplements (sing. supp.) are charged on single occupancy
-              rooms only.
+              <a href="#" class="orange-link" id="accommodation-link"
+                >categories of accommodation</a
+              >. We also tier-price based on your group's size. You can keep
+              your tour private to your own group or you can open your tour for
+              other travelers to join, thereby taking advantage of our tier
+              discounts. Single Supplements (sing. supp.) are charged on single
+              occupancy rooms only.
               <strong>All prices are quoted per person in USD.</strong>
             </p>
 
@@ -558,6 +559,7 @@
               allowing you the maximum in flexibility and convenience (<a
                 href="#"
                 class="orange-link"
+                id="explanation-link"
                 >full explanation</a
               >).
             </p>
@@ -568,8 +570,9 @@
             <p>
               Write to us using the form below, and we'll send you the detailed
               itinerary for this tour and other relevant information. Or proceed
-              to our <a href="#" class="orange-link">booking area</a> to book
-              this tour now.
+              to our
+              <a href="/book-a-tour.html" class="orange-link">booking area</a>
+              to book this tour now.
             </p>
 
             <div class="tour-form-section">
@@ -994,8 +997,219 @@
 
     <div id="footer"></div>
 
+    <!-- Wine Policy Modal -->
+    <div id="wine-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Our Wine Policy</h2>
+        <p>Why don't we price in wine during included meals?</p>
+        <p>
+          After all, many companies do, in an apparent fit of generosity. You'll
+          read promising phrases like "chef-selected wine" or "all the wine you
+          can drink".
+        </p>
+        <p>
+          What these euphemisms actually mean are: "chef-selected house wine"
+          and "all the house wine you can drink".
+        </p>
+        <p>
+          Based on discussions with our clients, we've concluded that our
+          travelers generally would prefer not to have wine included.
+        </p>
+        <p>
+          Firstly, it obviously makes no sense to price in wine for those who
+          choose not to drink it.
+        </p>
+        <p>
+          Secondly, for those who do, a carafe of house wine, no matter how
+          potable, is often less enticing than the options offered on the wine
+          list.
+        </p>
+        <p>
+          And lastly, no reasonable wine budget can cover the full range of
+          enological possibilities and prices.
+        </p>
+        <p>
+          For these reasons, we've decided to leave the matter up to you,
+          allowing you to pay on your own for whatever wine you may drink.
+        </p>
+        <p>
+          Keep in mind that you'll have the expertise of your guide in helping
+          you select a good wine in whatever price range you prefer, as most of
+          our guides have quite an extensive knowledge of Italian wines.
+        </p>
+        <p>
+          We do, of course, include the standard beverages of all Italian meals,
+          such as water and an after-dinner coffee, as well as some surprise
+          treats depending on the region you're in.
+        </p>
+      </div>
+    </div>
+
+    <!-- Accommodation Categories Modal -->
+    <div id="accommodation-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>How we rate accommodations</h2>
+        <p>
+          In many areas of Italy, you can choose from among five different
+          levels of accommodation. We have preferential rates at most of the
+          hotels we use and pass these discounts on to you. The hotels we select
+          have received the highest ratings in their class for ambience,
+          comfort, and service. The pricing indicated below is in euro for the
+          major cities of Rome, Florence and Venice. In other areas, the prices
+          are typically lower.
+        </p>
+
+        <h3>Comfort</h3>
+        <p>
+          This is the traditional Italian inn, usually family-owned. We've
+          sought out the best of this class, offering great value with
+          comfortable rooms (all with en-suite bathroom) and a great location.
+          In some less touristed regions of Italy, this is the top accommodation
+          option available. The published price of these accommodations per
+          night for a double room is generally between E90-170 in the major
+          cities of Rome, Florence and Venice.
+        </p>
+
+        <h3>Select</h3>
+        <p>
+          These are all attractive 3 and 4 star accommodations, among the finest
+          in their regions, and have fully equipped rooms. They might be
+          situated in an old olive mill, a castle, a restored monastery. The
+          available amenities usually include buffet breakfast, a night porter,
+          a pool (except within the cities), room service, etc. You would
+          generally expect to pay between E170-260 per night for these
+          accommodations.
+        </p>
+
+        <h3>First Class</h3>
+        <p>
+          What distinguishes these hotels from the Select category are extra
+          touches like fine linens, free internet access, hydromassage, a noted
+          restaurant, or a particularly fortuitous location. These are all
+          superior-grade, 4 star hotels. On occasion we put in this
+          classification the best rooms in the Select class hotels, what are
+          often called the "superior" or "deluxe" rooms. The published price per
+          night for a double falls between E260-350.
+        </p>
+
+        <h3>Deluxe</h3>
+        <p>
+          The main reason these hotels do not rank in our luxury class is that
+          they are all 4 star hotels, meaning that they do not offer the
+          complete range of amenities provided by a 5 star hotel. Nevertheless,
+          these are among the finest hotels in Italy, and indeed in Europe. You
+          would expect to pay from E350-500 per night in these establishments.
+        </p>
+
+        <h3>Luxury</h3>
+        <p>
+          Elegant 5 star hotels, among the best in Europe. There are only a few
+          of these in the major centers of Italy, as well as some in areas like
+          the Amalfi Coast and the Lakes District. On very rare occasions, we
+          rank a particularly splendid 4 star hotel in this class. The published
+          prices range from E500 on up. Please request a price quote for Luxury
+          accommodations.
+        </p>
+      </div>
+    </div>
+
+    <!-- Tour Request Explanation Modal -->
+    <div id="explanation-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Requesting a Tour</h2>
+        <p>
+          Simply put, you choose a destination you'd like to go to, tell us when
+          you'd like to go, and we set up your tour. Then, you decide if you
+          want to keep your tour private to your own group or open it to other
+          travelers, thereby taking advantage of our tier-pricing discounts.
+        </p>
+        <p>
+          Whatever the case, you're booking a trip that's guaranteed to run, no
+          matter the number of participants, so you don't have to worry about
+          your tour being canceled due to so-called "low participation rates."
+        </p>
+      </div>
+    </div>
+
     <script src="/assets/js/loadComponent.js"></script>
     <script>
+      // Modal Functionality
+      const wineModal = document.getElementById("wine-modal");
+      const accommodationModal = document.getElementById("accommodation-modal");
+      const explanationModal = document.getElementById("explanation-modal");
+      const wineLink = document.getElementById("wine-link");
+      const accommodationLink = document.getElementById("accommodation-link");
+      const explanationLink = document.getElementById("explanation-link");
+      const closeBtns = document.getElementsByClassName("close");
+
+      // Open wine modal when wine is clicked
+      wineLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        wineModal.style.display = "block";
+        document.body.style.overflow = "hidden"; // Prevent background scrolling
+      });
+
+      // Open accommodation modal when accommodation link is clicked
+      accommodationLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        accommodationModal.style.display = "block";
+        document.body.style.overflow = "hidden"; // Prevent background scrolling
+      });
+
+      // Open explanation modal when explanation link is clicked
+      explanationLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        explanationModal.style.display = "block";
+        document.body.style.overflow = "hidden"; // Prevent background scrolling
+      });
+
+      // Close modals when X is clicked
+      Array.from(closeBtns).forEach(function (closeBtn) {
+        closeBtn.addEventListener("click", function () {
+          wineModal.style.display = "none";
+          accommodationModal.style.display = "none";
+          explanationModal.style.display = "none";
+          document.body.style.overflow = "auto"; // Restore scrolling
+        });
+      });
+
+      // Close modals when clicking outside of them
+      window.addEventListener("click", function (e) {
+        if (e.target === wineModal) {
+          wineModal.style.display = "none";
+          document.body.style.overflow = "auto"; // Restore scrolling
+        }
+        if (e.target === accommodationModal) {
+          accommodationModal.style.display = "none";
+          document.body.style.overflow = "auto"; // Restore scrolling
+        }
+        if (e.target === explanationModal) {
+          explanationModal.style.display = "none";
+          document.body.style.overflow = "auto"; // Restore scrolling
+        }
+      });
+
+      // Close modals with Escape key
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          if (wineModal.style.display === "block") {
+            wineModal.style.display = "none";
+            document.body.style.overflow = "auto"; // Restore scrolling
+          }
+          if (accommodationModal.style.display === "block") {
+            accommodationModal.style.display = "none";
+            document.body.style.overflow = "auto"; // Restore scrolling
+          }
+          if (explanationModal.style.display === "block") {
+            explanationModal.style.display = "none";
+            document.body.style.overflow = "auto"; // Restore scrolling
+          }
+        }
+      });
+
       // Handle conditional form fields
       document
         .querySelectorAll('input[name="call_preference"]')
