@@ -364,4 +364,8 @@
   .form-wrapper {
     padding: 0 30px;
   }
+
+  .book-hero {
+    height: 180px;
+  }
 }

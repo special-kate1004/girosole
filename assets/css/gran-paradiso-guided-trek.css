@@ -797,9 +797,9 @@ h2 {
     display: block !important;
   }
 
-  .mobile-testimonial-box {
+  /* .mobile-testimonial-box {
     display: block !important;
-  }
+  } */
 
   .mobile-tour-form {
     display: block !important;
@@ -843,7 +843,7 @@ h2 {
 
 @media screen and (max-width: 480px) {
   .tour-hero {
-    height: 200px;
+    height: 200px !important;
   }
 
   .left-content h1 {

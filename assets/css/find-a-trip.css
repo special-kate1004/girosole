@@ -5,10 +5,6 @@
   padding: 60px 20px;
 }
 
-.hero {
-  height: 500px !important;
-}
-
 .content-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
